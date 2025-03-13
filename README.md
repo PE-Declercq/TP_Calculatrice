@@ -41,7 +41,7 @@ Les tests unitaires se trouvent dans le dossier tests/unit/. Pour les lancer :
 ## Tests End-to-End (Playwright)
 Les tests E2E se trouvent dans le dossier tests/e2e/. Pour les exécuter, assurez-vous que votre serveur local est lancé, puis :
 
-    npm run test:e2e
+    npm run e2e
 
 ## Commandes principales
 
