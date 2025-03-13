@@ -1,0 +1,96 @@
+/* Style de base pour la page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container principal de la calculatrice */
+.calculator {
+width: 320px;
+margin: 50px auto;
+background-color: #ffffff;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* En-tête */
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #f2f2f2;
+padding: 10px;
+}
+.hamburger-menu {
+font-size: 18px;
+cursor: pointer;
+border: none;
+background: none;
+}
+.title {
+font-weight: bold;
+}
+.mode {
+font-size: 14px;
+color: #555;
+}
+
+/* Affichage du résultat */
+.display {
+font-size: 2.5rem;
+text-align: right;
+padding: 20px;
+background-color: #fafafa;
+border-bottom: 1px solid #ccc;
+min-height: 60px;
+}
+
+/* Rangée mémoire */
+.memory-row {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+gap: 5px;
+padding: 5px;
+}
+
+/* Grille principale des boutons */
+.buttons {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 5px;
+padding: 5px;
+}
+
+/* Style de base pour les boutons */
+.btn {
+font-size: 1rem;
+padding: 15px;
+background-color: #e0e0e0;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+outline: none;
+}
+
+.btn:hover {
+background-color: #d0d0d0;
+}
+
+/* Couleur spécifique pour les opérateurs */
+.operator {
+background-color: #f4a261;
+}
+.operator:hover {
+background-color: #f2a05b;
+}
+
+/* Couleur spécifique pour le bouton "=" */
+.equals {
+background-color: #2a9d8f;
+}
+.equals:hover {
+background-color: #278881;
+}  
