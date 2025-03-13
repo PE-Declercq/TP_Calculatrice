@@ -93,4 +93,19 @@ background-color: #2a9d8f;
 }
 .equals:hover {
 background-color: #278881;
-}  
+}
+
+/* Masquer l'historique par défaut */
+.hidden {
+display: none;
+}
+
+/* Style de la section historique */
+.history-panel {
+max-height: 200px;
+overflow-y: auto;
+background-color: #fafafa;
+border-top: 1px solid #ccc;
+padding: 10px;
+}
+  
