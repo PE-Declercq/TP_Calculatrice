@@ -20,6 +20,17 @@ class Calculator {
       this.history.push(result);
       return result;
     }
+  
+    divide(a, b) {
+      if (b === 0) {
+        const error = 'Erreur : division par zéro';
+        this.history.push(error);
+        return error;
+      }
+      const result = a / b;
+      this.history.push(result);
+      return result;
+    }
     
     getHistory() {
       return this.history;
